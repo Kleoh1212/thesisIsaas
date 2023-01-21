@@ -18,9 +18,7 @@
     <nav class="navbar navbar-light bg-light shadow bg-body rounded">
       <div class="container-fluid">
         <a class="navbar-brand">Student Advising</a>
-        <form class="d-flex">
-          <button class="btn btn-outline-success" type="submit">User Name</button>
-        </form>
+       
       </div>
     </nav>
   <!--Side bar-->
@@ -30,7 +28,7 @@
                 <div class="d-flex flex-column position-sticky pt-4" style="height:90vh;" >
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item">
-                            <a href="{% url 'adviserprof' %}" class="nav-link text-dark shadow-sm mt-1 rounded">Adviser Profile</a>
+                            <a href="{% url 'adviserprof' %}" class="nav-link text-dark bg-body shadow-sm mt-1 rounded">Adviser Profile</a>
                         </li>
                         <li>
                             <a href="{% url 'viewstudent' %}" class="nav-link text-white shadow-sm mt-1 rounded" style="background: #198754;" aria-current="page">View Student</a>              
@@ -97,7 +95,7 @@
                         <div class="card-body">
                             <table class="table table-hover">
                                 <thead>
-                                  <tr>
+                                  <tr class="text-success">
                                     <th scope="col">Student Number</th>
                                     <th scope="col">Course</th>
                                     <th scope="col">Year Level</th>
